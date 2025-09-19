@@ -1,7 +1,7 @@
 // src/utils/api.js
 import axios from 'axios';
 
-const API_BASE_URL = 'https://mlm-backend-production.up.railway.app/api/';
+const API_BASE_URL = 'https://mlm-backend-production.up.railway.app/';
 
 export const api = axios.create({
   baseURL: API_BASE_URL,
